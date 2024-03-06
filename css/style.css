@@ -2,10 +2,47 @@
 
 body{
     background-color: #5cb2d7;
-    text-align: center;
+    background-image: url("../media/images/web.news_.opportunity4allrally.b.BJM_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
 
 }
 
+
+
+#tab1{
+    background-color: #f8f8f2;
+    margin: 5px auto;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    float: inline-end;
+    padding: 10px;
+}
+
+#blue{
+    height: 600px;
+
+}
+/* .container{
+    display: block;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap; */
+
+
+/* #tab1{
+    background-color: #f8f8f2;
+    margin: 5px auto;
+    height: 500px;
+    width: 700px;
+    border-radius: 15px
+
+} */
 
 
 
