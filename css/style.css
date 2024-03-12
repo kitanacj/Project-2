@@ -50,8 +50,8 @@ body{
 }
 
 .arrow{
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     padding: 15px;
     
 
@@ -59,7 +59,6 @@ body{
 
 #stick{
     background-color:  #5cb2d7;
-    background-image: url("../media/images/butter.gif");
     height:auto;
     width: 1000px;
     padding: 25px 25px 25px 25px;
@@ -92,6 +91,18 @@ body{
     width: 400px;
     background-color: white;
 }
+
+#startover{
+    width: 400px;
+    background-image: url("../media/images/download.jpeg");
+    color: #f8f8f2;
+
+}
+
+#butter{
+   
+}
+
 
 
 

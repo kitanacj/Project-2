@@ -6,12 +6,20 @@ $(document).ready(function(){
 
     $("#butterfly").click(function(){
         $("#titles").hide();
-        $("#stick").show();
+        $("#stick").slideToggle();
         $("#box").show();
         $("#butterfly").hide();
+        $("#butter").hide();
 
-        
-        
+    });
+
+    $("#butter").click(function(){
+        $("#titles").hide();
+        $("#stick").slideToggle();
+        $("#box").show();
+        $("#butterfly").hide();
+        $("#butter").hide();
+
     });
 
     $("#box2").hide();
@@ -33,10 +41,18 @@ $(document).ready(function(){
     $("#box2").hide();
     $("#box3").hide();
     $("#box4").hide();
-    
+
     $("#arrow3").click(function(){
         $("#box4").toggle();
 
+    });
+
+    $("#startover").click(function(){
+        $("#stick").hide();
+        $("#box").hide();
+        $("#butterfly").show();
+        $("#titles").show();
+        $("#butter").show();
     });
 
 });
