@@ -1,13 +1,15 @@
 //resource link: https://www.w3schools.com/jquery/default.asp
 
 $(document).ready(function(){
-    $("#stick").hide()
+    $("#stick").hide();
+    $("#box").hide();
 
-    $("#blue").click(function(){
-        $("#blue").hide();
+    $("#butterfly").click(function(){
+        $("#titles").hide();
         $("#stick").show();
+        $("#box").show();
 
-
+        
+        
     });
-
 });
