@@ -4,6 +4,7 @@
 body{
     background-color: #5cb2d7;
     background-image: url("../media/images/background.PNG");
+    font-family: Poppins;
 
 }
 
@@ -48,25 +49,45 @@ body{
     }
 }
 
+.arrow{
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    
 
+}
 
 #stick{
     background-color:  #5cb2d7;
-    float: inline-end;
-    height: 600px;
+    background-image: url("../media/images/butter.gif");
+    height: 1000px;
     width: 1000px;
     padding: 25px 25px 25px 25px;
     border-radius: 15px;
 
 }
-#box{
+#box1{
     background-color: #f8f8f2;
+    text-align: center;
     float: inline-end;
-    height: 600px;
-    width: 600px;
     border-radius: 15px;
+    padding: 5px;
 
 }
+
+.info{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#monarch{
+    padding: 5px;
+    color: white;
+}
+
+
+
 
 
 

@@ -8,8 +8,35 @@ $(document).ready(function(){
         $("#titles").hide();
         $("#stick").show();
         $("#box").show();
+        $("#butterfly").hide();
 
         
         
     });
+
+    $("#box2").hide();
+    $("#box3").hide();
+    $("#box4").hide();
+
+    $("#arrow1").click(function(){
+        $("#box2").toggle();
+
+    });
+    $("#box2").hide();
+    $("#box3").hide();
+    $("#box4").hide();
+
+    $("#arrow2").click(function(){
+        $("#box3").toggle();
+
+    });
+    $("#box2").hide();
+    $("#box3").hide();
+    $("#box4").hide();
+    
+    $("#arrow3").click(function(){
+        $("#box4").toggle();
+
+    });
+
 });
